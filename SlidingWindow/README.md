@@ -18,7 +18,9 @@ Skeleton:
 
 - Declare a for loop with int windowEnd = 0 as your starting point 
 - Add arr[windowEnd] to your result variables
-TWO SITUATIONS
+
+
+# TWO SITUATIONS
 SITUATION 1 : If you are given a window size K as a paramter
 Conditional if your window size(windowEnd - windowStart + 1) is greater than K, then shrink your window by windowStart+1 and remove arr[windowStart] from result variable
 
