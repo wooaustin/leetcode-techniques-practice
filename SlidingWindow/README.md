@@ -21,10 +21,10 @@ Skeleton:
 
 
 # TWO SITUATIONS
-SITUATION 1 : If you are given a window size K as a paramter
+SITUATION 1 : If you are given a window size K as a paramter  
 Conditional if your window size(windowEnd - windowStart + 1) is greater than K, then shrink your window by windowStart+1 and remove arr[windowStart] from result variable
 
-SITUATION 2 : If you arent given a window size K 
+SITUATION 2 : If you arent given a window size K  
 Most likely the problem is asking for the smallest range of values within the array/string that equals some conditional, so insert a while loop here with that conditional. Inside that conditional you should be shrinking your window by windowStart+1 at each iteration of the while loop, removing arr[windowStart] from result variables, and continue
 
 BOTH SITUATIONS
