@@ -7,15 +7,14 @@
                    / \    / \
                   4   5  6   7
         Result: [[1],
-                 [2,3],
-                 [4,5,6,7]] */
+                 [3,2],
+                 [7,6,5,4]] */
 
 class TreeNode{
     int val;
     TreeNode left;
     TreeNode right;
 }
-
 
 class Solution{
     public List<List<Integer>> levelOrderTraversal(TreeNode root){
@@ -36,7 +35,8 @@ class Solution{
             ArrayList<Integer> levelList = new ArrayList();
             for(int i = 0;i<levelSize;i++){
                 TreeNode currNode = queue.poll();
-                levelList.add(currNode.val);
+                //Add at the beginning of the list
+                levelList.add(0, currNode.val);
                 if(currNode.left != null){
                     queue.offer(currNode.left);
                 }
