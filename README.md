@@ -15,5 +15,6 @@ Building this repo out for my own study purposes and anyone trying to learn a st
 - Modified Binary Search
 - Top K Elements
 
+I also have a pdf version of Cracking the Coding Interview(CTCI), feel free to msg me and I'll send over resources if you need it  
 
 Made by Austin Woo
