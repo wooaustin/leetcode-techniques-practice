@@ -12,6 +12,7 @@ Building this repo out for my own study purposes and anyone trying to learn a st
 - Breadth First Search
 - Depth First Search
 - Two Heaps
+- MergeSort
 - Modified Binary Search
 - Top K Elements
 
