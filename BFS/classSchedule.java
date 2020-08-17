@@ -19,7 +19,7 @@ class Solution{
         }
 
         //All classes that had no prerequisite
-        int pCounter = new int[numCourses];
+        int[] pCounter = new int[numCourses];
         for(int i = 0;i<len;i++){
             pCounter[prerequisites[i][0]]++;
         }
@@ -36,7 +36,7 @@ class Solution{
             int curr = queue.poll();
             for(int i = 0;i<len;i++){
                 if(prerequisites[i][1] == curr){
-                    pCounter[prerequisites[[i][0]]]--;
+                    pCounter[prerequisites[i][0]]--;
                     if(pCounter[prerequisites[i][0]] == 0){
                         numsNoPre++;
                         queue.add(prerequisites[i][0]);
